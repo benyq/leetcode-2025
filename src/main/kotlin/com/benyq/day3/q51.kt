@@ -1,7 +1,6 @@
 package com.benyq.day3
 
 
-// TODO 待回顾
 fun main() {
     println(solveNQueens(1))
     println(solveNQueens(3))
