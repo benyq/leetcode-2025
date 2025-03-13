@@ -1,6 +1,7 @@
 package com.benyq
 
 class ListNode(var `val`: Int) {
+    @JvmField
     var next: ListNode? = null
     override fun toString(): String {
         return "ListNode(`val`=$`val`, next=$next)"
